@@ -1,0 +1,195 @@
+
+html{
+    padding-bottom: 10rem;
+}
+
+.header{
+    background-color: #34BEDE;
+    width: 100%;
+    height: 4em;
+    
+}
+
+.icon{
+    background-image: url(../photo/task8/task.8.1.png);
+    background-repeat: no-repeat;
+    background-size: 1.8em;
+    height: 3em;
+    width: 3em;
+    position: relative;
+    top: 1.4em;
+    left: 0.5em;
+    float: left;
+}
+
+.header-word{
+    float: left;
+    padding-left: 35%;
+    padding-top: 0.7em;
+    font-size: 1.7em;
+    color: white;
+    
+}
+
+#backicon{
+    float: right;
+    font-size: 2em;
+    color: white;
+    padding-top: 0.7em;
+    padding-right: 0.5em;
+}
+
+.main{
+    background-color: #BAE9F4;
+    width: 100%;
+    height: 4em;
+}
+
+.main-word{
+    line-height: 4em;
+    padding-left: 7%;
+    float: left;
+}
+
+#circle {
+    width: 2.4em;
+    height: 2.4em;
+    background: orange;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    float: right;
+    margin-top: 0.8em;
+    margin-right: 0.4em;
+    z-index: 80;
+    
+}
+
+.shuzhe{
+    z-index: 100;
+    
+    float: right;
+    
+}
+
+audio{
+    
+    position: absolute;
+    width: 20px;
+    top:10%;
+    opacity: 0;
+    
+}
+
+.main-icon{
+    background-color: #34BEDE;
+    width: 100%;
+    height: 4em;
+    padding-left: 10%;
+    
+}
+
+.main-icon-sanjiao{
+    display: flex;
+}
+
+.main-icon-word{
+    margin-top: 0.5rem;
+}
+
+.content{
+    padding: 2em 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: #34BEDE;
+}
+
+.content .level,.level2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .level2{
+    margin-top: 10%;
+}
+
+.name{
+    width: 23vw;
+    height: 23vw;
+    background-color: #f5c97b;
+    border: 0.5rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.big{
+    font-size: 5vw;
+}
+
+.content .name .small{
+    font-size: 3vw;
+    color: #fff;
+    background-color: #83b09a;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.content .lcon{
+    margin-top: 3vw;
+    position: absolute;
+    display: none;
+}
+
+.lcon .lcon1,.lcon2,.lcon3,.lcon4{
+    width: 5vw;
+    height: 5vw;
+    padding-right: 6vw;
+}
+
+.content .lcon img{
+    min-height: 80%;
+    min-width: 80%;
+    max-height: 80%;
+    min-height: 80%;
+
+}
+
+.content .name:hover + .lcon{
+	display:flex;
+	justify-content:space-between;
+}
+
+.footer{
+    height: 6vw;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color:#34BEDE;
+    padding-top: 1vw;
+    padding-left: 20%;
+    
+}
+
+.footer a{
+    height: 4vw;
+    width: 60%;
+    background-color: orange;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color: #fff;
+}
+
+ html body{
+    padding:0;
+    margin: 0;
+    background-color: #34BEDE;
+}

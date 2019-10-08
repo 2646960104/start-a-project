@@ -1,0 +1,182 @@
+html{
+    padding: 0 0 10em 0;
+}
+
+.header{
+    background-color: #29bde0;
+    width: 100%;
+    display: flex;
+}
+
+.result{
+    background-color: #29bde0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border-bottom: #74d4eb 0.005rem solid;
+    z-index: 2;
+    
+}
+
+.header .result .icon1{
+    width: 2em;
+    height: 2em;
+    background: url(../photo/task9/task9.1.png);
+    background-repeat: no-repeat;
+    background-size: 1.6em;
+    position: absolute;
+    left: 1%;
+    top:20%;
+}
+
+.header .result p{
+    color:#fff;
+    font-size: 1.3em;
+    padding-top: 0.2em;
+}
+
+.header .result .icon2{
+    width: 2em;
+    height: 2em;
+    background: url(../photo/task9/task9.2.png);
+    background-repeat: no-repeat;
+    background-size: 1.6em;
+    position: absolute;
+    right: 1%;
+    top:20%;
+}
+
+.victory{
+    width: 100%;
+    display: flex;
+    margin-top: 3em;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5% 0 5%;
+}
+
+.header .victory .img{
+    width: 12em;
+    height: 10em;
+    background: url(../photo/task9/task9.5.png);
+    background-repeat: no-repeat;
+    background-size: 12em;
+    position: relative;
+    top:2em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header .victory .img p{
+    color: #fff;
+    font-size: 1.5em;
+    padding-top: 3em;
+}
+
+.header .victory .p1{
+    width: 100%;
+    color:orange;
+    font-size: 1.2em;
+}
+
+.header .victory .summary{
+    width: 100%;
+    color: #fff;
+}
+
+.header .victory .summary .time{
+    
+    padding-top: 2%;
+}
+
+.header .victory .summary .character{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+
+.header .victory .summary .character p{
+    margin-right: 2%;
+}
+
+.header .victory .summary .vocabulary{
+    margin-bottom: 3%;
+}
+
+.list .day{
+    width: 100%;
+    padding: 0 5% 0 5%;
+    border-bottom: solid #c7c7c7 0.05em;
+}
+
+.list .day .time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list .day .time .big{
+    font-size: 1.2em;
+    padding-top: 1%;
+}
+
+.list .day .time p{
+    display: flex;
+    font-size: 0.8em;
+    color: #c7c7c7;
+    align-items: flex-end;
+    margin: 0%;
+}
+
+.list .day .small{
+    padding-top: 1.5%;
+    color: #c7c7c7;
+    
+}
+
+.list .day .small .daynight{
+    margin-bottom: 0.5%;
+}
+
+.list .day .small .daytime{
+    margin-bottom: 2%;
+}
+.footer{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(41,189,224,0.5);
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+}
+
+.footer .aging{
+    background-color: #f66f6f;
+    
+}
+
+.footer .post{
+    background-color: #fbb435;
+    
+}
+
+.footer .aging,.post{
+    flex: 1;
+    display: flex;
+    margin:1% 2%;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer .aging a,.post a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 1rem 0 1rem 0;
+    
+}

@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    background-color: #EFF0F1;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color: #34BEDE;
+    height: 3em;
+    background-image: url(../photo/task7/task7.1.png);
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position: 7% 0.7em;
+}
+
+.main{
+    
+    margin-top: 3em;
+    background-color: #EFF0F1;
+    width: 100%;
+    
+    text-align: center;
+    padding-top: 2em;
+}
+
+.main_box-1{
+    background-color: white;
+    width: 80%;
+    height: 4em;
+    margin-left: 10%;
+    line-height: 4em;
+    border: #DEDEDF solid;
+    
+}
+
+.main_box-1_content{
+    color:#A1A2A3;
+    font-size: 1.3em;
+}
+
+#sanjiao{
+    float: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #E5E7E8;
+    padding-top: 0.8em;
+    padding-right: 0.7em;
+}
+
+.main_box-2{
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    height: 3em;
+    line-height: 3em;
+    border: #DEDEDF solid;
+    border-bottom:#FBE4BA solid;
+    margin-top: 1em;
+    
+}
+
+.main_box-2_content{
+    color:#F8B74C;
+    font-size: 1.3em;
+}
+
+.main_box-3{
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    height: 8em;
+    line-height: 5em;
+    border-right: #DEDEDF solid;
+    border-left: #DEDEDF solid;
+    padding-top: 1.5em;
+    
+}
+
+.main_box-3_content{
+    background-color: #6DD2E9;
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    
+}
+
+.main_box-4{
+    background-color: white;
+    width: 80%;
+    height: 1.5em;
+    margin-left: 10%;
+    border-right: #DEDEDF solid;
+    border-left: #DEDEDF solid;
+    
+}
+
+#midsanjiao{
+    color: orange;
+    font-size: 2em;
+    position: absolute;
+    left: 82%;
+    top: 55%;
+}
+
+#circle {
+    width: 0.7em;
+    height: 0.7em;
+    background: #EFF0F1;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    
+}
+
+#circle1 {
+    width: 0.7em;
+    height: 0.7em;
+    background:#6DD2E9;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    
+}
+
+.float-left1,.float-left2{
+    float: left;
+    padding-top: 0.5em;
+    padding-right: 2%;
+}
+
+.float-left1{
+    padding-left: 40%;
+}
